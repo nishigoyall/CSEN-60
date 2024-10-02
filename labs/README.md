@@ -1,5 +1,5 @@
 - CSEN 60 Lab 1
-- Firstname Lastname
+- Nishi Goyal
 - 10/01/2024
 
 # Lab 1 Submission
