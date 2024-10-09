@@ -1,0 +1,32 @@
+header {
+  text-align: right;
+  border-bottom: 2px solid var(--accent-background)
+
+}
+input[type="search"] {
+  text-align: right
+  border-radius: 2px;
+  background-color: white;
+  margin-top: 4ch;
+  margin-right: 1rem;
+  margin-bottom: 3ch;
+  border: 2px solid var(--dark-gray);
+  padding: 1ch;
+}
+
+article h1 a {
+  text-decoration: none;
+  color: #54a0ff;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+article {
+  flex:0 0 30%
+  min-width: 30ch;
+  max-width: 50ch;
+}
