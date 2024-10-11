@@ -7,12 +7,24 @@
 
 ul {
     display: flex;
-    flex-direction: row; /* by default, display: flex has flex direction  row */
+    flex-direction: row;
     list-style: none;
     gap: 16px;
 }
 
 header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space between;
+    height: 100vh;
+}
+
+ul {
     display: flex;
     justify-content: space-between;
 }
@@ -30,4 +42,17 @@ button {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: lightgray;
+    display: flex;
+    margin-top: auto;
 }
