@@ -1,0 +1,61 @@
+nav{
+    
+}
+
+main{
+ padding-left: 20rem;
+ padding-right: 20rem;
+}
+
+nav ul{
+ display: flex;
+ flex-direction: row;
+ margin-left: 81rem;
+
+}
+
+h1{
+ color: darkblue;
+}
+
+time{
+    color: lightgray;
+}
+
+a.secondary{
+    color: lightgray;
+}
+
+a.primary{
+    color: #54a0ff;
+}
+
+footer nav{
+    background-color: white;
+    gap: 3rem;
+    display: content;
+    justify-content: space-between;
+}
+
+button.img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#next-article::before{
+    margin-right: 0.5rem;
+    content: ".";
+}
+
+::selection{
+    background-color: #54a0ff;
+    color: black;
+}
+
+a.secondary{
+    color: #aaa;
+}
+
+a.primary{
+    color: #54a0ff;
+}
