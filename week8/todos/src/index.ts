@@ -3,8 +3,29 @@ import { Hono } from 'hono'
 
 const app = new Hono()
 
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
+//our database
+const todos = [
+  {
+    id: 1,
+    description: "Turn in homework",
+    isComplete: false
+  }
+  ,{
+    id: 2,
+    description: "Study for test",
+    isComplete: false
+  }
+]
+
+app.use("/*", serveStatic({
+  root: "./static",
+}))
+  
+
+app.get('/api/todos', (c) => {
+  //database call to fetch tools
+  console.log("fetching and returning todos")
+  return c.json(todos)
 })
 
 const port = 3000
