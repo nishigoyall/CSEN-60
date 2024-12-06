@@ -37,3 +37,8 @@
 - Functionalities: popups, accordion, search feature
 - The search feature would say "no results found" if keyword wasn't on website, not designed for spelling errors
 - Used Figma to redesign
+
+## Pinterest
+- Added the home page (profile) and the gallery, and the all Pins page
+- Pin details: allows a pin to be saved
+- Challenges: overestimation, cookie and server, time management and communication
